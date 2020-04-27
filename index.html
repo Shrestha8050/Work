@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flip Clock</title>
+    <link rel="stylesheet" href="scss/flipclock.css">
+    <link rel="stylesheet" href="scss/style.css">
+</head>
+<body>
+    <div class="clock"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/flipclock.js"></script>
+    <script>
+        var clock = $('.clock').FlipClock({
+            clockFace: 'TwelveHourClock'
+        });
+    </script>
+</body>
+</html>
